@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #008C8C; /* Verde da bandeira italiana */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.menu {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.dish {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.dish img {
+    width: 300px; /* Largura padrão para as imagens */
+    height: 200px; /* Altura padrão para as imagens */
+    object-fit: cover; /* Manter a proporção das imagens */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.dish h2 {
+    margin-top: 0;
+    color: #cc0000; /* Vermelho da bandeira italiana */
+}
+
+footer {
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
